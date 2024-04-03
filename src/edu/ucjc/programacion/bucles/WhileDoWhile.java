@@ -3,6 +3,9 @@ package edu.ucjc.programacion.bucles;
 public class WhileDoWhile {
 
     public static void main(String[] args) {
+    	
+    	String nombre = " La programación en java es sencilla ";
+		System.out.println(nombre.trim().substring(nombre.lastIndexOf(" ")));
         // While
         /*
         int numero = 10;
