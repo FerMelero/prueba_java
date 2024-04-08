@@ -8,7 +8,7 @@ public class ClaseMain {
 		ClaseHija1 claseHija = new ClaseHija1("Nombre",100,"dni");
 		
 		claseHija.metodo1();
-		System.out.println(claseHija);
+		
 
 	}
 

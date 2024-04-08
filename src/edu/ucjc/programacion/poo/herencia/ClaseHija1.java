@@ -1,5 +1,5 @@
 package edu.ucjc.programacion.poo.herencia;
-
+// Para sobreescribir un me´todo, deben tener el mismo nombre, devolver los mismo, ser del mismo tipo
 public class ClaseHija1 extends ClasePadre {
 	private String atributo2;
 
@@ -16,8 +16,14 @@ public class ClaseHija1 extends ClasePadre {
 		this.atributo2 = atributo2;
 	}
 	
+	@Override
 	public void metodo1() {
-		super.metodo1();;
+		super.metodo1();
 		System.out.println("Método 1 de la clase hija");
+	}
+	
+	@Override
+	public String toString() {
+		return "ClaseHija1 [atributo2 = " + atributo2 + getContador() + "]";
 	}
 }
