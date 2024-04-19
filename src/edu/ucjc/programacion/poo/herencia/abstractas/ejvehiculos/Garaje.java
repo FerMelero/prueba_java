@@ -16,7 +16,7 @@ public class Garaje {
 		Bicicleta bici2 = new Bicicleta("RockRider", "St100", 6);
 
 		Moto moto1 = new Moto("Honda", "CBR", 2006, "5739 DYL", 600);
-		SideCar sd1 = new SideCar("BMW", "R1100", 1990, "M1653LP", 1100, 40);
+		SideCar sd1 = new SideCar("BMW", "R1100", 1990, "M1653LP", 1100, 140);
 
 		Vehiculo[] vehiculos = { coche1, coche2, coche3, bici1, bici2, moto1, sd1 };
 

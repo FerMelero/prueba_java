@@ -23,4 +23,18 @@ public class Bicicleta extends Vehiculo {
 		System.out.println("Inflando ruedas de la bicicleta");
 	}
 
+	@Override
+	public void acelerar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void frenar() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
 }
