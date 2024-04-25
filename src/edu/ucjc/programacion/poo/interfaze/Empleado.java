@@ -29,7 +29,7 @@ public class Empleado extends Persona implements Empleable {
 
 	@Override
 	public void fichar() {
-		System.out.println("Fichando al empleado "+ this.getNombre() + " con ID " + this.id);
+		System.out.println("Fichando al empleado " + this.getNombre() + " con ID " + this.id);
 
 	}
 
